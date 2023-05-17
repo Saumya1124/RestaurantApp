@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import { Fragment } from "react";
 import img1 from '../../assets/img1.jpg';
 import classes from './Header.module.css';
