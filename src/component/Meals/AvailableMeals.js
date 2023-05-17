@@ -9,7 +9,7 @@ const data = [
     { id : 4, name : 'ColdCoffee' , description: 'some great drink' , price: 40}
 ]
 const AvailableMeals = ()=> {
-    const mealsList = data.map(meal =><MealItem key = {meal.id} name = {meal.name} description = {meal.description} price = {meal.price} ></MealItem>)
+    const mealsList = data.map(meal =><MealItem key = {meal.id} id = {meal.id} name = {meal.name} description = {meal.description} price = {meal.price} ></MealItem>)
     return(
         <section className={classes.meals}>
         <Card>

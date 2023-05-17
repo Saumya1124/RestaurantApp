@@ -25,7 +25,7 @@ const MealItemForm = (props)=> {
                 defaultValue: '1',
                 
               }}/>
-              <button onClick={cartCtx.addItem}> + Add</button>
+              <button onClick={cartCtx.addItem} id={props.id} > + Add</button>
         </form>
 
     )
